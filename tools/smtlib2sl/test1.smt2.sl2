@@ -1,0 +1,32 @@
+
+(declare-datatypes ((GTyp 0)) (((c_GTyp (f0 GTyp) (f1 GTyp) ))))
+
+(define-fun-rec p () Bool
+	(or (exists ((x type) ) (and (pto x (c_GTyp  nil ))
+
+self=x
+nil!=x)
+	)
+)
+
+(define-fun-rec q () Bool
+	(or ((and (pto self (c_GTyp  nil ))
+
+nil!=self)
+	)
+)
+
+(define-fun-rec r () Bool
+	(or (exists ((z type) ) (and (pto self (c_GTyp  z ))
+(p )
+
+nil!=self)
+	)
+)
+
+
+(check-unsat) 
+(assert (r )
+)
+
+(check-sat)
