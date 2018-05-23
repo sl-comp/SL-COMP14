@@ -1,10 +1,14 @@
+# SL-COMP 2014 #
 
-# SL-COMP14
-Resources for edition 2014 of SL-COMP, competition of solvers for Separation Logic
+## About ##
 
-**IMPORTANT: forked from https://github.com/mihasighi/smtcomp14-sl**
+Resources for the first edition of SL-COMP, SL-COMP'14.
+SL-COMP is a competition of solvers for the theory of Separation Logic
+(`QF_S` theory at SMT-COMP 2014).
 
-Benchmark and tools for the theory of Separation Logic at SMTCOMP 2014
+**IMPORTANT: this project has been forked from https://github.com/mihasighi/smtcomp14-sl**
+
+## Content ##
 
 * _bench_ : set of problems used split in divisions
 * _divisions.html_ : description of divisions with the participating solvers
